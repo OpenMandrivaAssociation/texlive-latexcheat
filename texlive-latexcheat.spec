@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/latexcheat/latexcheat
+# catalog-date 2009-04-07 08:49:48 +0200
+# catalog-license lppl
+# catalog-version 1.13
 Name:		texlive-latexcheat
 Version:	1.13
 Release:	1
@@ -23,6 +29,7 @@ typesetting mathematics (though it does list some symbols).
 %doc %{_texmfdistdir}/doc/latex/latexcheat/README
 %doc %{_texmfdistdir}/doc/latex/latexcheat/latexsheet.pdf
 %doc %{_texmfdistdir}/doc/latex/latexcheat/latexsheet.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -33,3 +40,5 @@ typesetting mathematics (though it does list some symbols).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
