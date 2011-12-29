@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latexcheat.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A LaTeX reference sheet for writing scientific papers. Unlike
@@ -29,7 +27,6 @@ typesetting mathematics (though it does list some symbols).
 %doc %{_texmfdistdir}/doc/latex/latexcheat/README
 %doc %{_texmfdistdir}/doc/latex/latexcheat/latexsheet.pdf
 %doc %{_texmfdistdir}/doc/latex/latexcheat/latexsheet.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,5 +37,3 @@ typesetting mathematics (though it does list some symbols).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
