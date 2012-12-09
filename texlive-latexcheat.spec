@@ -37,3 +37,17 @@ typesetting mathematics (though it does list some symbols).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.13-2
++ Revision: 753134
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.13-1
++ Revision: 718814
+- texlive-latexcheat
+- texlive-latexcheat
+- texlive-latexcheat
+- texlive-latexcheat
+
