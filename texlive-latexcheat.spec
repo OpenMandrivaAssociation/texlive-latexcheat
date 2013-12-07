@@ -6,7 +6,7 @@
 # catalog-version 1.13
 Name:		texlive-latexcheat
 Version:	1.13
-Release:	4
+Release:	5
 Summary:	A LaTeX cheat sheet
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latexcheat/latexcheat
