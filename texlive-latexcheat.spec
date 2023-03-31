@@ -1,6 +1,6 @@
 Name:		texlive-latexcheat
 Version:	15878
-Release:	1
+Release:	2
 Summary:	A LaTeX cheat sheet
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latexcheat/latexcheat
