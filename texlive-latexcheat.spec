@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A LaTeX cheat sheet
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/latexcheat/latexcheat
+URL:		https://www.ctan.org/tex-archive/info/latexcheat/latexcheat
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latexcheat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latexcheat.doc.r%{version}.tar.xz
